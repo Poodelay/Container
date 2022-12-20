@@ -59,6 +59,7 @@ add_executable(launcher main.cpp)
 target_link_libraries(_fnode _node)
 target_link_libraries(_bnode _node)
 
+target_link_libraries(_iter _node)
 target_link_libraries(_fiter _iter _fnode)
 target_link_libraries(_biter _iter _bnode)
 
