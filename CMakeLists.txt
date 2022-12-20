@@ -35,8 +35,7 @@ set(FCTNR ${HDR}/${CON}/forward_list.hpp ${SRC}/${CON}/forward_list.cpp)
 
 set(BNODE ${HDR}/${NOD}/bidirectional_node.hpp ${SRC}/${NOD}/bidirectional_node.cpp)
 set(BITER ${HDR}/${ITE}/bidirectional_iterator.hpp ${SRC}/${ITE}/bidirectional_iterator.cpp)
-set(BCTNR ${HDR}/${CON}/bidirectional_list.hpp
-  ${SRC}/${CON}/bidirectional_list.cpp)
+set(BCTNR ${HDR}/${CON}/bidirectional_list.hpp ${SRC}/${CON}/bidirectional_list.cpp)
 
 add_library(_node STATIC ${NODE})
 add_library(_iter STATIC ${ITER})
